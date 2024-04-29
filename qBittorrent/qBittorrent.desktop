@@ -1,0 +1,13 @@
+[Desktop Entry]
+Categories=Network;FileTransfer;P2P;Qt;
+Comment=Download and share files over BitTorrent
+Exec=/media/sda2/git_clone/AppImage_shortcut_desktop/qBittorrent/qBittorrent_run.sh
+GenericName=BitTorrent client
+Icon=/media/sda2/git_clone/AppImage_shortcut_desktop/qBittorrent/qBittorrent.svg
+Keywords=bittorrent;torrent;magnet;download;p2p;
+MimeType=application/x-bittorrent;x-scheme-handler/magnet;
+Name=qBittorrent
+StartupNotify=true
+StartupWMClass=qbittorrent
+Terminal=0
+Type=Application
