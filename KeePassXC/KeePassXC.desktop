@@ -1,0 +1,11 @@
+[Desktop Entry]
+Categories=Utility;Security;Qt;
+Comment=Community-driven port of the Windows application “KeePass Password Safe”
+Exec=/media/sda2/git_clone/AppImage_shortcut_desktop/KeePassXC/KeePassXC_run.sh
+GenericName=Password Manager
+Icon=/media/sda2/git_clone/AppImage_shortcut_desktop/KeePassXC/KeePassXC.svg
+Name=KeePassXC
+StartupNotify=true
+StartupWMClass=keepassxc
+Terminal=0
+Type=Application
