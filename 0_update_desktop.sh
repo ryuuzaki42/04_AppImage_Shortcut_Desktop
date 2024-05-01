@@ -18,11 +18,15 @@ Git_Clone_Folder=$(echo "$Git_Clone_Folder" | sed 's/\//\\\//g') # Change / to \
 AppImage_Folder=$(echo "$AppImage_Folder" | sed 's/\//\\\//g') # Change / to \/ to sed
 
 # Change Exec= and Icon=
-sed -i "s/Exec=.*AppImage_shortcut_desktop\//Exec=$Git_Clone_Folder/g" */*.desktop
-sed -i "s/Icon=.*AppImage_shortcut_desktop\//Icon=$Git_Clone_Folder/g" */*.desktop
+sed -i "s/Exec=.*AppImage_shortcut_desktop\//Exec=$Git_Clone_Folder/" */*.desktop
+sed -i "s/Icon=.*AppImage_shortcut_desktop\//Icon=$Git_Clone_Folder/" */*.desktop
 
-# Change the path to the AppImage files
-sed -i "s/cd \/.*/cd \"$AppImage_Folder\"/g" */*_run.sh
+
+# Change path to the AppImage files - $AppImage_Folder
+sed -i "s/cd \/.*AppImage\//cd $AppImage_Folder/" */*_run.sh
+
+# Change path to Git_Clone_Folder - Git_Clone_Folder - To mkvpropedit_run.sh for example
+sed -i "s/cd \/.*AppImage_shortcut_desktop\//cd $Git_Clone_Folder/" */*_run.sh
 
 cp -v */*.desktop ~/.local/share/applications/
 
