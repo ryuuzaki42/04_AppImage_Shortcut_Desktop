@@ -35,7 +35,8 @@ AppImage_Folder="/media/sda2/os/gnu_linux/slackware15.0/AppImage/"
 Git_Clone_Folder="$PWD/"
 
 ## Comment Shortcut you don't want to install, like Authy line
-Shortcut_Install=("ChatALL"
+Shortcut_Install=(
+"ChatALL"
 "CodeBlocks"
 "Discord"
 "Jubler"
@@ -48,11 +49,13 @@ Shortcut_Install=("ChatALL"
 "WinRAR"
 "Zotero"
 "qBittorrent"
-"Audacity"
+#"Audacity"
 #"Authy"
 #"PeaZip"
 #"Vivaldi"
 #"Xournalpp"
+#"zz_others_not_AppImage/MATLAB"
+"zz_others_not_AppImage/xlaserpointer"
 )
 
 # --- Not need to change below this point ---
