@@ -36,6 +36,8 @@ Git_Clone_Folder="$PWD/"
 
 ## Comment Shortcut you don't want to install, like Authy line
 Shortcut_Install=(
+#"Audacity"
+#"Authy"
 "ChatALL"
 "CodeBlocks"
 "Discord"
@@ -44,16 +46,14 @@ Shortcut_Install=(
 "MKVToolNix"
 "Maestral"
 "Opera"
+#"PeaZip"
 "Syncplay"
 "Teams_for_Linux"
+#"Vivaldi"
 "WinRAR"
+#"Xournalpp"
 "Zotero"
 "qBittorrent"
-#"Audacity"
-#"Authy"
-#"PeaZip"
-#"Vivaldi"
-#"Xournalpp"
 #"zz_others_not_AppImage/MATLAB"
 "zz_others_not_AppImage/xlaserpointer"
 )
