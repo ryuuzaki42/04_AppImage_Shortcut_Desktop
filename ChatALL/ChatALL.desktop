@@ -1,8 +1,8 @@
 [Desktop Entry]
 Categories=Utility;
 Comment=Chat with multiple AI bots and discover the best.
-Exec=/media/sda2/git_clone/AppImage_shortcut_desktop/ChatALL/ChatALL_run.sh
-Icon=/media/sda2/git_clone/AppImage_shortcut_desktop/ChatALL/ChatALL.jpg
+Exec=/media/sda2/git_clone/04_AppImage_shortcut_desktop/ChatALL/ChatALL_run.sh
+Icon=/media/sda2/git_clone/04_AppImage_shortcut_desktop/ChatALL/ChatALL.jpg
 Name=ChatALL
 StartupNotify=true
 StartupWMClass=ChatALL

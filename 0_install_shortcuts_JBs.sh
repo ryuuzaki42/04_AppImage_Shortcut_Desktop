@@ -31,7 +31,7 @@
 AppImage_Folder="/media/sda2/os/gnu_linux/slackware15.0/AppImage/"
 
 ## Change the Icon and Exec in the */*.desktop
-#Git_Clone_Folder="/media/sda2/git_clone/AppImage_shortcut_desktop/"
+#Git_Clone_Folder="/media/sda2/git_clone/04_AppImage_shortcut_desktop/"
 Git_Clone_Folder="$PWD/"
 
 ## Comment Shortcut you don't want to install, like Authy line

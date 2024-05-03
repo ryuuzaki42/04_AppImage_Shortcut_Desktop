@@ -1,9 +1,9 @@
 [Desktop Entry]
 Categories=Development;IDE;GTK;
 Comment=Configurable and extensible IDE
-Exec=/media/sda2/git_clone/AppImage_shortcut_desktop/CodeBlocks/CodeBlocks_run.sh
+Exec=/media/sda2/git_clone/04_AppImage_shortcut_desktop/CodeBlocks/CodeBlocks_run.sh
 GenericName=Integrated development environment
-Icon=/media/sda2/git_clone/AppImage_shortcut_desktop/CodeBlocks/CodeBlocks.png
+Icon=/media/sda2/git_clone/04_AppImage_shortcut_desktop/CodeBlocks/CodeBlocks.png
 Name=Code::Blocks IDE
 StartupNotify=true
 Terminal=0

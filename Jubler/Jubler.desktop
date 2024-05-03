@@ -1,9 +1,9 @@
 [Desktop Entry]
 Categories=AudioVideo;Java;TextTools;AudioVideoEditing;
 Comment=Jubler is a tool to edit text-based subtitles
-Exec=/media/sda2/git_clone/AppImage_shortcut_desktop/Jubler/Jubler_run.sh
+Exec=/media/sda2/git_clone/04_AppImage_shortcut_desktop/Jubler/Jubler_run.sh
 GenericName=jubler
-Icon=/media/sda2/git_clone/AppImage_shortcut_desktop/Jubler/Jubler.png
+Icon=/media/sda2/git_clone/04_AppImage_shortcut_desktop/Jubler/Jubler.png
 Name=Jubler
 StartupNotify=true
 Terminal=0

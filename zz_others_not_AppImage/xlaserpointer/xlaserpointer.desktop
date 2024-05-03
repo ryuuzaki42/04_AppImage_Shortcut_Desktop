@@ -1,8 +1,8 @@
 [Desktop Entry]
 Categories=Utilities
 Comment=X laser pointer
-Exec=/media/sda2/git_clone/AppImage_shortcut_desktop/zz_others_not_AppImage/xlaserpointer/xlaserpointer_run.sh
-Icon=/media/sda2/git_clone/AppImage_shortcut_desktop/zz_others_not_AppImage/xlaserpointer/xlaserpointer.png
+Exec=/media/sda2/git_clone/04_AppImage_shortcut_desktop/zz_others_not_AppImage/xlaserpointer/xlaserpointer_run.sh
+Icon=/media/sda2/git_clone/04_AppImage_shortcut_desktop/zz_others_not_AppImage/xlaserpointer/xlaserpointer.png
 Name=xlaserpointer
 StartupNotify=true
 Terminal=1

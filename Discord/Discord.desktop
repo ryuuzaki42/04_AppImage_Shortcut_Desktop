@@ -1,9 +1,9 @@
 [Desktop Entry]
 Categories=Network;InstantMessaging
 Comment=All-in-one voice and text chat for gamers that's free, secure, and works on both your desktop and phone.
-Exec=/media/sda2/git_clone/AppImage_shortcut_desktop/Discord/Discord_run.sh
+Exec=/media/sda2/git_clone/04_AppImage_shortcut_desktop/Discord/Discord_run.sh
 GenericName=Internet Messenger
-Icon=/media/sda2/git_clone/AppImage_shortcut_desktop/Discord/Discord.png
+Icon=/media/sda2/git_clone/04_AppImage_shortcut_desktop/Discord/Discord.png
 Name=Discord
 StartupNotify=true
 StartupWMClass=discord
