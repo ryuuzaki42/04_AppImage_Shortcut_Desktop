@@ -5,7 +5,6 @@ Exec=/media/sda2/git_clone/04_AppImage_shortcut_desktop/zz_others_not_AppImage/M
 Icon=/media/sda2/git_clone/04_AppImage_shortcut_desktop/zz_others_not_AppImage/MATLAB/MATLAB.jpeg
 Name=MATLAB
 StartupNotify=false
-#Terminal=0
 Terminal=1
 Type=Application
 MimeType=text/x-matlab
