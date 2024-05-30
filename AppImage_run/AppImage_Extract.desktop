@@ -1,7 +1,7 @@
 [Desktop Entry]
 Categories=Utility
 Comment=AppImage extract to a Prog*.AppImage.ext/ folder by script
-Exec=/media/sda2/git_clone/02_Scripts_Slackware/run_AppImage_JBs.sh %f -x; read asfsda
+Exec=run_AppImage_JBs.sh %f -x; read asfsda
 GenericName=AppImage_Extract
 Icon=/media/sda2/git_clone/04_AppImage_shortcut_desktop/AppImage_run/AppImage_logo.jpg
 Keywords=AppImage
@@ -10,5 +10,4 @@ Name=AppImage_Extract
 StartupNotify=true
 StartupWMClass=AppImage_Extract
 Terminal=1
-#Terminal=0
 Type=Application
