@@ -1,7 +1,7 @@
 [Desktop Entry]
 Categories=Utility
 Comment=AppImage run by script
-Exec=run_AppImage_JBs.sh %f -r; read asfsda
+Exec=run_AppImage_JBs.sh %f -r; echo -e "\nHit enter to terminate"; read _
 GenericName=AppImage_Run
 Icon=/media/sda2/git_clone/04_AppImage_shortcut_desktop/AppImage_run/AppImage_logo.jpg
 Keywords=AppImage

@@ -1,7 +1,7 @@
 [Desktop Entry]
 Categories=Utility
 Comment=AppImage mount and view files by script
-Exec=run_AppImage_JBs.sh %f -v; read asfsda
+Exec=run_AppImage_JBs.sh %f -v; echo -e "\nHit enter to terminate"; read _
 GenericName=AppImage_View
 Icon=/media/sda2/git_clone/04_AppImage_shortcut_desktop/AppImage_run/AppImage_logo.jpg
 Keywords=AppImage
