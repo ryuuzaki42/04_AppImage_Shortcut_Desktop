@@ -22,7 +22,7 @@
 #
 # Script: Update/Overwrite *.desktop information in ~/.local/share/applications/
 #
-# Last update: 02/05/2024
+# Last update: 30/05/2024
 #
 
 #set -x
@@ -36,6 +36,7 @@ Git_Clone_Folder="$PWD/"
 
 ## Comment Shortcut you don't want to install, like Authy line
 Shortcut_Install=(
+"AppImage_run"
 #"Audacity"
 #"Authy"
 "ChatALL"
