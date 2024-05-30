@@ -1,0 +1,14 @@
+[Desktop Entry]
+Categories=Utility
+Comment=AppImage mount and view files by script
+Exec=/media/sda2/git_clone/02_Scripts_Slackware/run_AppImage_JBs.sh %f -p; read asfsda
+GenericName=AppImage_Portable
+Icon=/media/sda2/git_clone/04_AppImage_shortcut_desktop/AppImage_run/AppImage_logo.jpg
+Keywords=AppImage
+MimeType=application/vnd.appimage;application/x-iso9660-appimage;
+Name=AppImage_Portable
+StartupNotify=true
+StartupWMClass=AppImage_Portable
+Terminal=1
+#Terminal=0
+Type=Application
