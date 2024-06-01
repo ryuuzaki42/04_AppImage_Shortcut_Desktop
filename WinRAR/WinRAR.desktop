@@ -1,8 +1,8 @@
 [Desktop Entry]
 Categories=GTK;Archiving;Compression;Utility;
 Comment=Comprise and extract files rar
-Exec=/media/sda2/git_clone/04_AppImage_shortcut_desktop/WinRAR/WinRAR_run.sh
-Icon=/media/sda2/git_clone/04_AppImage_shortcut_desktop/WinRAR/WinRAR.png
+Exec=/media/sda2/git_clone/04_AppImage_Shortcut_Desktop/WinRAR/WinRAR_run.sh
+Icon=/media/sda2/git_clone/04_AppImage_Shortcut_Desktop/WinRAR/WinRAR.png
 MimeType=application/x-rar:application/x-zip;application/x-compressed-rar:application/x-compressed-zip
 Name=WinRAR
 StartupNotify=true

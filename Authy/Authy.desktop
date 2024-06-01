@@ -1,8 +1,8 @@
 [Desktop Entry]
 Categories=Utility;
 Comment=Twilio Authy two factor authentication desktop application
-Exec=/media/sda2/git_clone/04_AppImage_shortcut_desktop/Authy/Authy_run.sh
-Icon=/media/sda2/git_clone/04_AppImage_shortcut_desktop/Authy/Authy.png
+Exec=/media/sda2/git_clone/04_AppImage_Shortcut_Desktop/Authy/Authy_run.sh
+Icon=/media/sda2/git_clone/04_AppImage_Shortcut_Desktop/Authy/Authy.png
 Name=Authy Desktop
 StartupNotify=true
 StartupWMClass=Authy Desktop

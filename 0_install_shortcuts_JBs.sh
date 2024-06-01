@@ -22,7 +22,7 @@
 #
 # Script: Update/Overwrite *.desktop information in ~/.local/share/applications/
 #
-# Last update: 30/05/2024
+# Last update: 01/06/2024
 #
 
 #set -x
@@ -31,8 +31,8 @@
 AppImage_Folder="/media/sda2/os/gnu_linux/slackware15.0/AppImage/"
 
 ## Change the Icon and Exec in the */*.desktop
-#Git_Clone_Folder="/media/sda2/git_clone/04_AppImage_shortcut_desktop/"
-Git_Clone_Folder="$PWD/"
+Git_Clone_Folder="/media/sda2/git_clone/04_AppImage_Shortcut_Desktop/"
+#Git_Clone_Folder="$PWD/"
 
 ## Comment Shortcut you don't want to install, like Authy line
 Shortcut_Install=(

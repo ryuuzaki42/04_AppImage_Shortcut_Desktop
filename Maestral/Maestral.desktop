@@ -1,9 +1,9 @@
 [Desktop Entry]
 Categories=Network;FileTransfer;
 Comment=Sync your files with Dropbox
-Exec=/media/sda2/git_clone/04_AppImage_shortcut_desktop/Maestral/Maestral_run.sh
+Exec=/media/sda2/git_clone/04_AppImage_Shortcut_Desktop/Maestral/Maestral_run.sh
 GenericName=File Synchroniser
-Icon=/media/sda2/git_clone/04_AppImage_shortcut_desktop/Maestral/Maestral.png
+Icon=/media/sda2/git_clone/04_AppImage_Shortcut_Desktop/Maestral/Maestral.png
 MimeType=
 Name=Maestral
 StartupNotify=true

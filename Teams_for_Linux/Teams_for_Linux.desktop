@@ -1,8 +1,8 @@
 [Desktop Entry]
 Categories=Chat;Network;Office;
 Comment=Unofficial Microsoft Teams client for Linux using Electron. It uses the Web App and wraps it as a standalone application using Electron.
-Exec=/media/sda2/git_clone/04_AppImage_shortcut_desktop/Teams_for_Linux/Teams_for_Linux_run.sh
-Icon=/media/sda2/git_clone/04_AppImage_shortcut_desktop/Teams_for_Linux/Teams_for_Linux.png
+Exec=/media/sda2/git_clone/04_AppImage_Shortcut_Desktop/Teams_for_Linux/Teams_for_Linux_run.sh
+Icon=/media/sda2/git_clone/04_AppImage_Shortcut_Desktop/Teams_for_Linux/Teams_for_Linux.png
 MimeType=x-scheme-handler/msteams;
 Name=Teams for Linux
 StartupNotify=true

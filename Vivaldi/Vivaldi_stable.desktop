@@ -1,8 +1,8 @@
 [Desktop Entry]
 Categories=Network;WebBrowser;
 Comment=Access the Internet
-Exec=/media/sda2/git_clone/04_AppImage_shortcut_desktop/Vivaldi/Vivaldi_run.sh
-Icon=/media/sda2/git_clone/04_AppImage_shortcut_desktop/Vivaldi/Vivaldi.png
+Exec=/media/sda2/git_clone/04_AppImage_Shortcut_Desktop/Vivaldi/Vivaldi_run.sh
+Icon=/media/sda2/git_clone/04_AppImage_Shortcut_Desktop/Vivaldi/Vivaldi.png
 MimeType=application/pdf;application/rdf+xml;application/rss+xml;application/xhtml+xml;application/xhtml_xml;application/xml;image/gif;image/jpeg;image/png;image/webp;text/html;text/xml;x-scheme-handler/ftp;x-scheme-handler/http;x-scheme-handler/https;x-scheme-handler/mailto;
 Name=Vivaldi
 StartupNotify=true

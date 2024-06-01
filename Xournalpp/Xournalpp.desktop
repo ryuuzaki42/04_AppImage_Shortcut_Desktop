@@ -1,8 +1,8 @@
 [Desktop Entry]
 Categories=GTK;Archiving;Compression;Utility;Office;GNOME;GTK;
 Comment=Take handwritten notes
-Exec=/media/sda2/git_clone/04_AppImage_shortcut_desktop/Xournalpp/Xournalpp_run.sh
-Icon=/media/sda2/git_clone/04_AppImage_shortcut_desktop/Xournalpp/Xournalpp.svg
+Exec=/media/sda2/git_clone/04_AppImage_Shortcut_Desktop/Xournalpp/Xournalpp_run.sh
+Icon=/media/sda2/git_clone/04_AppImage_Shortcut_Desktop/Xournalpp/Xournalpp.svg
 Keywords=Tablet;Wacom;Pen Input;PDF Annotation;Markup
 MimeType=application/x-xoj;application/x-xojpp;application/x-xopp;application/x-xopt;application/pdf;
 Name=Xournal++
