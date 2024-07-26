@@ -22,7 +22,7 @@
 #
 # Script: Update/Overwrite *.desktop information in ~/.local/share/applications/
 #
-# Last update: 18/06/2024
+# Last update: 27/07/2024
 #
 
 #set -x
@@ -40,7 +40,7 @@ Shortcut_Install=(
 #"Audacity"
 #"Authy"
 "ChatALL"
-"CodeBlocks"
+#"CodeBlocks"
 #"Discord" #- Now using tar.gz extracted
 "Jubler"
 "KeePassXC"
@@ -51,6 +51,7 @@ Shortcut_Install=(
 "Syncplay"
 "Teams_for_Linux"
 #"Vivaldi"
+"VSCodium"
 "WinRAR"
 #"Xournalpp"
 "Zotero"
