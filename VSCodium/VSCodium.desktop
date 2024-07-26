@@ -1,0 +1,10 @@
+[Desktop Entry]
+Categories=Development
+Comment=VSCodium
+Exec=/media/sda2/git_clone/04_AppImage_Shortcut_Desktop/VSCodium/VSCodium_run.sh
+GenericName=VSCodium
+Icon=/media/sda2/git_clone/04_AppImage_Shortcut_Desktop/VSCodium/VSCodium.png
+Name=VSCodium
+StartupNotify=true
+Terminal=0
+Type=Application
