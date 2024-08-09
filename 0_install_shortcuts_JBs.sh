@@ -22,7 +22,7 @@
 #
 # Script: Update/Overwrite *.desktop information in ~/.local/share/applications/
 #
-# Last update: 27/07/2024
+# Last update: 09/08/2024
 #
 
 #set -x
@@ -58,6 +58,7 @@ Shortcut_Install=(
 "qBittorrent"
 #"zz_others_not_AppImage/MATLAB"
 "zz_others_not_AppImage/xlaserpointer"
+"zz_others_not_AppImage/Discord"
 )
 
 # --- Not need to change below this point ---
