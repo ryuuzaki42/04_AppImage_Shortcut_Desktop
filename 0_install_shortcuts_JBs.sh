@@ -22,7 +22,7 @@
 #
 # Script: Update/Overwrite *.desktop information in ~/.local/share/applications/
 #
-# Last update: 09/08/2024
+# Last update: 20/08/2024
 #
 
 #set -x
@@ -51,7 +51,7 @@ Shortcut_Install=(
 "Syncplay"
 "Teams_for_Linux"
 #"Vivaldi"
-"VSCodium"
+#"VSCodium" #- Now using tar.gz extracted
 "WinRAR"
 #"Xournalpp"
 "Zotero"
@@ -59,6 +59,7 @@ Shortcut_Install=(
 #"zz_others_not_AppImage/MATLAB"
 "zz_others_not_AppImage/xlaserpointer"
 "zz_others_not_AppImage/Discord"
+"zz_others_not_AppImage/VSCodium"
 )
 
 # --- Not need to change below this point ---

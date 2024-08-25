@@ -1,0 +1,12 @@
+[Desktop Entry]
+Categories=TextEditor;Development;IDE;
+Comment=Code Editing. Redefined.
+Exec=/media/sda2/home/j/.0installed/VSCodium/VSCodium-linux-x64-*/codium %F
+GenericName=Text Editor
+Icon=/media/sda2/git_clone/04_AppImage_Shortcut_Desktop/VSCodium/VSCodium.png
+Keywords=vscodium;codium;vscode;
+MimeType=text/plain;inode/directory;application/x-codium-workspace;
+Name=VSCodium
+StartupNotify=false
+StartupWMClass=VSCodium
+Type=Application
