@@ -22,7 +22,7 @@
 #
 # Script: Update/Overwrite *.desktop information in ~/.local/share/applications/
 #
-# Last update: 20/08/2024
+# Last update: 09/10/2024
 #
 
 #set -x
@@ -60,6 +60,7 @@ Shortcut_Install=(
 "zz_others_not_AppImage/xlaserpointer"
 "zz_others_not_AppImage/Discord"
 "zz_others_not_AppImage/VSCodium"
+"zz_others_not_AppImage/Firefox" # using tar.bz2 extracted
 )
 
 # --- Not need to change below this point ---
