@@ -22,7 +22,7 @@
 #
 # Script: Update/Overwrite *.desktop information in ~/.local/share/applications/
 #
-# Last update: 27/11/2024
+# Last update: 23/04/2025
 #
 
 #set -x
@@ -39,7 +39,7 @@ Shortcut_Install=(
 "AppImage_run"
 #"Audacity"
 #"Authy"
-"ChatALL"
+#"ChatALL"
 #"CodeBlocks"
 #"Discord" #- Now using tar.gz extracted
 "Jubler"
