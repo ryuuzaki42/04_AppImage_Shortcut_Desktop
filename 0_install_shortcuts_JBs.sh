@@ -77,14 +77,14 @@ for (( i=0; i < len; i++)); do
     echo -e "\nFolder $i: \"$Folder_Now\""
 
     # Change Exec= and Icon=
-    sed -i "s/Exec=.*AppImage_shortcut_desktop\//Exec=$Git_Clone_Folder/" "$Folder_Now"/*.desktop
-    sed -i "s/Icon=.*AppImage_shortcut_desktop\//Icon=$Git_Clone_Folder/" "$Folder_Now"/*.desktop
+    sed -i "s/Exec=.*AppImage_Shortcut_Desktop\//Exec=$Git_Clone_Folder/" "$Folder_Now"/*.desktop
+    sed -i "s/Icon=.*AppImage_Shortcut_Desktop\//Icon=$Git_Clone_Folder/" "$Folder_Now"/*.desktop
 
     # Change path to the AppImage files - $AppImage_Folder
     sed -i "s/cd \/.*AppImage\//cd $AppImage_Folder/" "$Folder_Now"/*_run.sh
 
-    # Change path to Git_Clone_Folder - Git_Clone_Folder - To mkvpropedit_run.sh for example
-    sed -i "s/cd \/.*AppImage_shortcut_desktop\//cd $Git_Clone_Folder/" "$Folder_Now"/*_run.sh
+    # Change path to git clone folder - $Git_Clone_Folder - To mkvpropedit_run.sh for example
+    sed -i "s/cd \/.*AppImage_Shortcut_Desktop\//cd $Git_Clone_Folder/" "$Folder_Now"/*_run.sh
 
     cp -v "$Folder_Now"/*.desktop ${HOME}/.local/share/applications/
 done
