@@ -86,7 +86,7 @@ for (( i=0; i < len; i++)); do
     # Change path to Git_Clone_Folder - Git_Clone_Folder - To mkvpropedit_run.sh for example
     sed -i "s/cd \/.*AppImage_shortcut_desktop\//cd $Git_Clone_Folder/" "$Folder_Now"/*_run.sh
 
-    cp -v "$Folder_Now"/*.desktop ${HOME}.local/share/applications/
+    cp -v "$Folder_Now"/*.desktop ${HOME}/.local/share/applications/
 done
 
 ## Update KDE shortcuts information
