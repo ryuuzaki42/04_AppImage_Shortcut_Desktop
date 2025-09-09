@@ -1,0 +1,11 @@
+[Desktop Entry]
+Categories=Network;GTK;
+Comment=Remote Desktop Software
+Exec=/media/sda2/git_clone/04_AppImage_Shortcut_Desktop/AnyDesk/AnyDesk_run.sh
+Icon=/media/sda2/git_clone/04_AppImage_Shortcut_Desktop/AnyDesk/AnyDesk.png
+Name=AnyDesk
+StartupNotify=true
+StartupWMClass=AnyDesk
+Terminal=0
+Type=Application
+MimeType=x-scheme-handler/anydesk;
