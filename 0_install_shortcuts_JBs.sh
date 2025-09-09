@@ -22,7 +22,7 @@
 #
 # Script: Update/Overwrite *.desktop information in ~/.local/share/applications/
 #
-# Last update: 23/04/2025
+# Last update: 09/09/2025
 #
 
 #set -x
@@ -38,11 +38,13 @@ Git_Clone_Folder="/media/sda2/git_clone/04_AppImage_Shortcut_Desktop/"
 echo "AppImage_Folder: $AppImage_Folder"
 echo "Git_Clone_Folder: $Git_Clone_Folder"
 
-## Comment Shortcut you don't want to install, like Authy line
+## Comment Shortcut you don't want to install, like Discord line
 Shortcut_Install=(
+
+## AppImage
+"AnyDesk"
 "AppImage_run"
 #"Audacity"
-#"Authy"
 #"ChatALL"
 #"CodeBlocks"
 #"Discord" #- Now using tar.gz extracted
@@ -60,17 +62,22 @@ Shortcut_Install=(
 #"Xournalpp"
 "Zotero"
 "qBittorrent"
+
+## Not AppImage
 #"zz_others_not_AppImage/MATLAB"
 "zz_others_not_AppImage/xlaserpointer"
 "zz_others_not_AppImage/Discord"
 #"zz_others_not_AppImage/VSCodium"
-"zz_others_not_AppImage/Firefox" # using tar.bz2 extracted
+"zz_others_not_AppImage/Firefox" # Using tar.bz2 extracted
+
+## Old
+# "zzz_Old/Authy"
 )
 
 # --- Not need to change below this point ---
 
 echo -e "\nGit_Clone_Folder: $Git_Clone_Folder"
-echo -e "AppImage_Folder: $AppImage_Folder\n"
+echo -e "AppImage_Folder: $AppImage_Folder"
 
 Git_Clone_Folder=$(echo "$Git_Clone_Folder" | sed 's/\//\\\//g') # Change / to \/ to sed
 AppImage_Folder=$(echo "$AppImage_Folder" | sed 's/\//\\\//g') # Change / to \/ to sed
@@ -90,8 +97,9 @@ for (( i=0; i < len; i++)); do
     # Change path to git clone folder - $Git_Clone_Folder - To mkvpropedit_run.sh for example
     sed -i "s/cd \/.*AppImage_Shortcut_Desktop\//cd $Git_Clone_Folder/" "$Folder_Now"/*_run.sh
 
-    cp -v "$Folder_Now"/*.desktop ${HOME}/.local/share/applications/
+    cp -v "$Folder_Now"/*.desktop "${HOME}"/.local/share/applications/
 done
 
 ## Update KDE shortcuts information
+echo
 kbuildsycoca5
