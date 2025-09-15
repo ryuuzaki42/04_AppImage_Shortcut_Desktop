@@ -2,9 +2,7 @@
 Categories=AudioVideo;Audio;AudioVideoEditing;
 Comment=Record and edit audio files
 Exec=/media/sda2/git_clone/04_AppImage_Shortcut_Desktop/Audacity/Audacity_run.sh
-GenericName=Sound Editor
 Icon=/media/sda2/git_clone/04_AppImage_Shortcut_Desktop/Audacity/Audacity.svg
-Keywords=sound;music editing;voice channel;frequency;modulation;audio trim;clipping;noise reduction;multi track audio editor;edit;mixing;WAV;AIFF;FLAC;MP2;MP3;
 MimeType=application/x-audacity-project;application/x-audacity-project+sqlite3;audio/aac;audio/ac3;audio/mp4;audio/x-ms-wma;video/mpeg;audio/flac;audio/x-flac;audio/mpeg;audio/basic;audio/x-aiff;audio/x-wav;application/ogg;audio/x-vorbis+ogg;
 Name=Audacity
 StartupNotify=true
