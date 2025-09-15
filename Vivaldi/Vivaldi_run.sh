@@ -3,3 +3,10 @@
 set -x
 cd /media/sda2/os/gnu_linux/slackware15.0/AppImage/
 ./Vivaldi-Stable-*.AppImage "$@"
+
+# Options
+    # New Window
+        # --new-window
+
+    # New Private Window
+        # --incognito
