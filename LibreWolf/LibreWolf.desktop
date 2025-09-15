@@ -1,0 +1,11 @@
+[Desktop Entry]
+Categories=Network;WebBrowser;
+Comment=WebBrowser
+Exec=/media/sda2/git_clone/04_AppImage_Shortcut_Desktop/LibreWolf/LibreWolf_run.sh
+Icon=/media/sda2/git_clone/04_AppImage_Shortcut_Desktop/LibreWolf/LibreWolf.png
+MimeType=text/html;text/xml;application/xhtml+xml;x-scheme-handler/http;x-scheme-handler/https;application/x-xpinstall;application/pdf;application/json;
+Name=LibreWolf
+StartupNotify=true
+StartupWMClass=LibreWolf
+Terminal=0
+Type=Application
