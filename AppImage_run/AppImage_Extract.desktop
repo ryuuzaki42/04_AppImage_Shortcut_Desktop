@@ -4,7 +4,6 @@ Comment=AppImage extract to a Prog*.AppImage.ext/ folder by script
 Exec=run_AppImage_JBs.sh %f -x; echo -e "\nHit enter to terminate"; read _
 GenericName=AppImage_Extract
 Icon=/media/sda2/git_clone/04_AppImage_Shortcut_Desktop/AppImage_run/AppImage_logo.jpg
-Keywords=AppImage
 MimeType=application/vnd.appimage;application/x-iso9660-appimage;
 Name=AppImage_Extract
 StartupNotify=true
