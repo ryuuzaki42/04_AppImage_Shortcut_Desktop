@@ -1,5 +1,5 @@
 #!/bin/bash
-# AppImage homepage: https://github.com/audacity/audacity/releases
+# AppImage: https://github.com/audacity/audacity/releases
 set -x
 cd /media/sda2/os/gnu_linux/slackware15.0/AppImage/
 ./audacity-*.AppImage "$@"
