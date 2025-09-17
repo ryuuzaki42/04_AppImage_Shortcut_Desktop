@@ -22,7 +22,7 @@
 #
 # Script: Update/Overwrite *.desktop information in ~/.local/share/applications/
 #
-# Last update: 15/09/2025
+# Last update: 17/09/2025
 #
 
 #set -x
@@ -50,14 +50,14 @@ Shortcut_Install=(
 #"Discord" #- Now using tar.gz extracted
 "Jubler"
 "KeePassXC"
-"LibreWolf"
+#"LibreWolf"
 "MKVToolNix"
 "Maestral"
 "Opera"
 #"PeaZip"
 "Syncplay"
 "Teams_for_Linux"
-#"Vivaldi"
+"Vivaldi"
 "VSCodium"
 "WinRAR"
 #"Xournalpp"
