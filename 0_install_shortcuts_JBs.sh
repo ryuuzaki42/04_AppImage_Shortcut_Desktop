@@ -22,7 +22,7 @@
 #
 # Script: Update/Overwrite *.desktop information in ~/.local/share/applications/
 #
-# Last update: 17/09/2025
+# Last update: 23/11/2025
 #
 
 #set -x
@@ -48,7 +48,7 @@ Shortcut_Install=(
 #"ChatALL"
 #"CodeBlocks"
 #"Discord" #- Now using tar.gz extracted
-"Jubler"
+#"Jubler"
 "KeePassXC"
 #"LibreWolf"
 "MKVToolNix"

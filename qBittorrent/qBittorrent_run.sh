@@ -1,7 +1,7 @@
 #!/bin/bash
 # AppImage: https://www.qbittorrent.org/download#linux
 set -x
-cd /media/sda2/os/gnu_linux/slackware15.0/AppImage/qbittorrent/
+cd /media/sda2/os/gnu_linux/slackware15.0/AppImage/qBittorrent/
 #./qbittorrent-*.AppImage "$@"
 #./qbittorrent-*_lt20_*.AppImage "$@"
 
