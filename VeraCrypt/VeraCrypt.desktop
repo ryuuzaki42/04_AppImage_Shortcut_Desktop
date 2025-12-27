@@ -1,0 +1,11 @@
+[Desktop Entry]
+Categories=System;Security;Utility;Filesystem;
+Comment=Create and mount VeraCrypt encrypted volumes
+Exec=/media/sda2/git_clone/04_AppImage_Shortcut_Desktop/VeraCrypt/VeraCrypt_run.sh
+Icon=/media/sda2/git_clone/04_AppImage_Shortcut_Desktop/VeraCrypt/VeraCrypt.png
+Keywords=encryption;filesystem;
+MimeType=application/x-veracrypt-volume;application/x-truecrypt-volume;
+Name=VeraCrypt
+StartupNotify=true
+Terminal=0
+Type=Application

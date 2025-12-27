@@ -22,7 +22,7 @@
 #
 # Script: Update/Overwrite *.desktop information in ~/.local/share/applications/
 #
-# Last update: 23/11/2025
+# Last update: 28/12/2025
 #
 
 #set -x
@@ -59,6 +59,7 @@ Shortcut_Install=(
 "Teams_for_Linux"
 "Vivaldi"
 "VSCodium"
+"VeraCrypt"
 "WinRAR"
 #"Xournalpp"
 "Zotero"
