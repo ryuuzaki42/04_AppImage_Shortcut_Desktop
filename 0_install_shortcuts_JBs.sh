@@ -22,7 +22,7 @@
 #
 # Script: Update/Overwrite *.desktop information in ~/.local/share/applications/
 #
-# Last update: 28/12/2025
+# Last update: 15/01/2026
 #
 
 #set -x
@@ -102,6 +102,6 @@ for (( i=0; i < len; i++)); do
     cp -v "$Folder_Now"/*.desktop "${HOME}"/.local/share/applications/
 done
 
-## Update KDE shortcuts information
 echo
-kbuildsycoca5
+kbuildsycoca5 # Update KDE shortcuts information
+gtk-update-icon-cache # Update Gnome shortcuts information
