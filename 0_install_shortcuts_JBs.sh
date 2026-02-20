@@ -22,7 +22,7 @@
 #
 # Script: Update/Overwrite *.desktop information in ~/.local/share/applications/
 #
-# Last update: 15/01/2026
+# Last update: 20/02/2026
 #
 
 #set -x
@@ -57,7 +57,7 @@ Shortcut_Install=(
 #"PeaZip"
 "Syncplay"
 "Teams_for_Linux"
-"Vivaldi"
+#"Vivaldi"
 "VSCodium"
 "VeraCrypt"
 "WinRAR"
