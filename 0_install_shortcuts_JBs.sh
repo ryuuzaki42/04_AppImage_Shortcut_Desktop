@@ -22,14 +22,13 @@
 #
 # Script: Update/Overwrite *.desktop information in ~/.local/share/applications/
 #
-# Last update: 20/02/2026
+# Last update: 24/02/2026
 #
 
 #set -x
 
 ## Change the path where is the *.AppImage in the */*_run.sh
 AppImage_Folder="/media/sda2/os/gnu_linux/slackware15.0/AppImage/"
-#AppImage_Folder="/run/media/j/Dados Windows/os/gnu_linux/slackware15.0/AppImage/"
 
 ## Change the Icon and Exec in the */*.desktop
 Git_Clone_Folder="/media/sda2/git_clone/04_AppImage_Shortcut_Desktop/"
