@@ -44,7 +44,6 @@ Shortcut_Install=(
 "AnyDesk"
 "AppImage_run"
 #"Audacity"
-#"ChatALL"
 #"CodeBlocks"
 #"Discord" #- Now using tar.gz extracted
 #"Jubler"
@@ -72,7 +71,8 @@ Shortcut_Install=(
 "zz_others_not_AppImage/Firefox" # Using tar.bz2 extracted
 
 ## Old
-# "zzz_Old/Authy"
+#"zzz_Old/Authy"
+#"zzz_Old/ChatALL"
 )
 
 # --- Not need to change below this point ---
