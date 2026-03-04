@@ -77,8 +77,12 @@ Shortcut_Install=(
 
 # --- Not need to change below this point ---
 
+
 echo -e "\nGit_Clone_Folder: $Git_Clone_Folder"
 echo -e "AppImage_Folder: $AppImage_Folder"
+
+HOME_USER=$HOME
+HOME_USER=${HOME_USER::-1} # Remove last /
 
 Git_Clone_Folder=$(echo "$Git_Clone_Folder" | sed 's/\//\\\//g') # Change / to \/ to sed
 AppImage_Folder=$(echo "$AppImage_Folder" | sed 's/\//\\\//g') # Change / to \/ to sed
@@ -98,7 +102,7 @@ for (( i=0; i < len; i++)); do
     # Change path to git clone folder - $Git_Clone_Folder - To mkvpropedit_run.sh for example
     sed -i "s/cd \/.*AppImage_Shortcut_Desktop\//cd $Git_Clone_Folder/" "$Folder_Now"/*_run.sh
 
-    cp -v "$Folder_Now"/*.desktop "${HOME}"/.local/share/applications/
+    cp -v "$Folder_Now"/*.desktop "$HOME_USER"/.local/share/applications/
 done
 
 echo
