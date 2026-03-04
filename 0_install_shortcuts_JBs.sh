@@ -64,11 +64,11 @@ Shortcut_Install=(
 "qBittorrent"
 
 ## Not AppImage
-#"zz_others_not_AppImage/MATLAB"
-"zz_others_not_AppImage/xlaserpointer"
-"zz_others_not_AppImage/Discord"
-#"zz_others_not_AppImage/VSCodium"
-"zz_others_not_AppImage/Firefox" # Using tar.bz2 extracted
+#"ZZ_Others_Not_AppImage/MATLAB"
+"ZZ_Others_Not_AppImage/xlaserpointer"
+"ZZ_Others_Not_AppImage/Discord"
+#"ZZ_Others_Not_AppImage/VSCodium"
+"ZZ_Others_Not_AppImage/Firefox" # Using tar.bz2 extracted
 
 ## Old
 #"ZZZ_Old/Authy"
