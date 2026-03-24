@@ -7,7 +7,7 @@
 #
 set -x
 
-place_install="/media/sda2/home/j/.0installed/Discord/"
+place_install="/media/sda2/0_installed/Discord/"
 folder_RAM="/media/sda2/home/j/Downloads/0_tmp_RAM_disk/"
 
 cd "$folder_RAM"
