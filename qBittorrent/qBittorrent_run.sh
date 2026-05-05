@@ -6,6 +6,6 @@ cd /media/sda2/os/gnu_linux/slackware15.0/AppImage/qBittorrent/
 #./qbittorrent-*_lt20_*.AppImage "$@"
 
 # AppImage: https://github.com/ryuuzaki42/AppImage_Full_ArchImage/releases?q=qBittorrent
-./qBittorrent_*.AppImage "$@"
+./qBittorrent*.AppImage "$@"
 
 # Tip: Add this script to Firefox instead the *.desktop to open Magnet Link
