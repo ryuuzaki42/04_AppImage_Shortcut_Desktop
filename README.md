@@ -11,9 +11,9 @@ Shortcuts (*.desktop) to AppImage files
 
 - AppImage_Folder with the folder that are the AppImage files
 
-- Git_Clone_Folder with the location were respository was cloned
+- Git_Clone_Folder with the location where repository was cloned
 
-- Shortcut_Install with the shotcuts to be installed
+- Shortcut_Install with the shortcuts to be installed
 
 3 Run the script to install/copy the */*.desktop to ~/.local/share/applications/
 and update the "Prog_run.sh" with the correct folder that are the files (AppImage or Binaries)
