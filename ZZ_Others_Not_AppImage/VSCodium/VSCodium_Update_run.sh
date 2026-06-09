@@ -1,13 +1,14 @@
 #!/bin/bash
+# Homepage: https://vscodium.com/
+# .tar.gz: https://github.com/VSCodium/vscodium/releases
 #
-# https://github.com/VSCodium/vscodium/releases
 # Download a new version and extract in the folder
 #
-# Last update: 25/08/2024
-#
+# Last update: 09/06/2026
+
 set -x
 #place_install="/media/sda2/home/j/.0installed/VSCodium/"
-folder_RAM="/media/sda2/home/j/Downloads/0_tmp_RAM_disk/"
+folder_RAM="/media/sda2/home/j/Downloads/0_tmp_folder_RAM/"
 
 cd "$folder_RAM"
 link_latest="https://github.com/VSCodium/vscodium/releases/latest"

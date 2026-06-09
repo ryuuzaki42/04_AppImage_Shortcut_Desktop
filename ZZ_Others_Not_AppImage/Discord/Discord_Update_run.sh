@@ -1,9 +1,8 @@
 #!/bin/bash
-#
-# https://discord.com/download
+# Homepage: https://discord.com/download
 # Download a new version and extract in the folder
 #
-# Last update: 04/05/2026
+# Last update: 09/06/2026
 #
 set -x
 

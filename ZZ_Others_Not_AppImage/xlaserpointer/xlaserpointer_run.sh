@@ -1,5 +1,7 @@
 #!/bin/bash
-# Homepage Slackware package: https://github.com/ryuuzaki42/xlaserpointer/releases
+# Homepage: https://github.com/naclomi/xlaserpointer
+# Slackware package: https://github.com/ryuuzaki42/xlaserpointer/releases
+
 echo -e "\nCtrl + C to start next mode\n"
 set -x
 
