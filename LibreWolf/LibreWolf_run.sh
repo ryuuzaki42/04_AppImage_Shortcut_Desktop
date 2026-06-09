@@ -1,4 +1,5 @@
 #!/bin/bash
+# Homepage: https://librewolf.net/
 # AppImage: https://gitlab.com/librewolf-community/browser/appimage/-/releases
 set -x
 cd /media/sda2/os/gnu_linux/slackware15.0/AppImage/
