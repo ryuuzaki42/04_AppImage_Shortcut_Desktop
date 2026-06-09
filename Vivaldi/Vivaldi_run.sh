@@ -1,4 +1,5 @@
 #!/bin/bash
+# Homepage: https://vivaldi.com/
 # AppImage: https://github.com/ivan-hc/Vivaldi-appimage/releases
 set -x
 cd /media/sda2/os/gnu_linux/slackware15.0/AppImage/

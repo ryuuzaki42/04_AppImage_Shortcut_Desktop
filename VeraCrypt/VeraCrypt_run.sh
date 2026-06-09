@@ -1,4 +1,5 @@
 #!/bin/bash
+# Homepage: https://vscodium.com/
 # AppImage: https://github.com/veracrypt/VeraCrypt/releases
 set -x
 cd /media/sda2/os/gnu_linux/slackware15.0/AppImage/
