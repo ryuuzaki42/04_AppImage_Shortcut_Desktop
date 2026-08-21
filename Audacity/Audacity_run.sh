@@ -2,5 +2,8 @@
 # Homepage: https://www.audacityteam.org/
 # AppImage: https://github.com/audacity/audacity/releases
 set -x
+
 cd /media/sda2/home/j/Dropbox/os/gnu_linux/slackware15.0/AppImage/
+chmod +x audacity-*.AppImage
+
 ./audacity-*.AppImage "$@"
