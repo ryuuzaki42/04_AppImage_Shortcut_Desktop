@@ -2,7 +2,9 @@
 # Homepage: https://xournalpp.github.io/
 # AppImage: https://github.com/xournalpp/xournalpp/releases
 set -x
+
 cd /media/sda2/home/j/Dropbox/os/gnu_linux/slackware15.0/AppImage/
+chmod +x xournalpp-*.AppImage
 
 # AppImage ryuuzaki42: https://github.com/ryuuzaki42/AppImage_Full_ArchImage/releases?q=xournalpp
 ./xournalpp-*.AppImage "$@"

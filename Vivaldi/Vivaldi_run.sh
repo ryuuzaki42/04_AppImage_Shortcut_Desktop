@@ -2,7 +2,10 @@
 # Homepage: https://vivaldi.com/
 # AppImage: https://github.com/ivan-hc/Vivaldi-appimage/releases
 set -x
+
 cd /media/sda2/home/j/Dropbox/os/gnu_linux/slackware15.0/AppImage/
+chmod +x Vivaldi-stable-*.AppImage
+
 ./Vivaldi-stable-*.AppImage "$@"
 
 # Options
