@@ -4,7 +4,10 @@
 
 # Mount AppImage and run mkvpropedit
 set -x
+
 cd /media/sda2/home/j/Dropbox/os/gnu_linux/slackware15.0/AppImage/
+chmod +x MKVToolNix_GUI-*.AppImage
+
 ./MKVToolNix_GUI-*.AppImage --appimage-mount &
 
 cd /media/sda2/git_clone/04_AppImage_Shortcut_Desktop/MKVToolNix/
