@@ -22,7 +22,6 @@
 #
 # Script: Update/Overwrite *.desktop information in ~/.local/share/applications/
 #
-# Last update: 04/03/2026
 #
 
 #set -x
@@ -53,7 +52,7 @@ Shortcut_Install=(
 "Maestral"
 "Opera"
 #"PeaZip"
-"Syncplay"
+#"Syncplay"
 "Teams_for_Linux"
 #"Vivaldi"
 "VSCodium"
