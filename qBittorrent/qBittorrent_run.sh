@@ -2,7 +2,7 @@
 # Homepage: https://www.qbittorrent.org/
 # AppImage: https://sourceforge.net/projects/qbittorrent/files/qbittorrent-appimage/
 set -x
-cd /media/sda2/os/gnu_linux/slackware15.0/AppImage/qBittorrent/
+cd /media/sda2/home/j/Dropbox/os/gnu_linux/slackware15.0/AppImage/qBittorrent/
 #./qbittorrent-*.AppImage "$@"
 #./qbittorrent-*_lt20_*.AppImage "$@"
 
