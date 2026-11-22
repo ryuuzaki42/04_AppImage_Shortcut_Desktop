@@ -1,0 +1,10 @@
+[Desktop Entry]
+Categories=AudioVideo;Utility;TextTools;AudioVideoEditing;
+Comment=Automagically synchronize subtitles with video
+Exec=/media/sda2/git_clone/04_AppImage_Shortcut_Desktop/FFsubsync/FFsubsync_run.sh
+GenericName=FFsubsync
+Icon=/media/sda2/git_clone/04_AppImage_Shortcut_Desktop/FFsubsync/FFsubsync.png
+Name=FFsubsync
+StartupNotify=true
+Terminal=1
+Type=Application
