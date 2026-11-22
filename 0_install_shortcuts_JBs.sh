@@ -17,7 +17,7 @@
 #
 # Script: Update/Overwrite *.desktop information in ~/.local/share/applications/
 #
-# Last update: 21/08/2026
+# Last update: 22/11/2026
 #
 
 #set -x
@@ -41,6 +41,7 @@ Shortcut_Install=(
 #"Audacity"
 #"CodeBlocks"
 #"Discord" #- Now using tar.gz extracted
+"FFsubsync"
 #"Jubler"
 "KeePassXC"
 "LibreWolf"
